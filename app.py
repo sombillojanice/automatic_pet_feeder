@@ -145,7 +145,7 @@ def feedbuttonclick():
             return redirect(url_for('home_page'))
 
         # If everything is successful, rotate the servo
-        rotate_servo(90)  # Rotate the servo to 90 degrees (or any desired angle)
+        rotate_servo(80)  # Rotate the servo to 90 degrees (or any desired angle)
 
         # Flash success message
         flash('Feed success!')
