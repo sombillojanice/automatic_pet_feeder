@@ -1,0 +1,10 @@
+.feedButton {
+width:6em;height:3em;
+border-top: 1px solid #919191;
+   font-size: 20px;
+   }
+.feedButton:hover {
+border-top: 1px solid #919191;
+   background: #e982f5;
+   color: #ffffff;
+   }

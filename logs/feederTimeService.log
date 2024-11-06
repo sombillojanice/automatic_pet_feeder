@@ -1,0 +1,174 @@
+2024-11-06 16:24:54,707 INFO     --------------------------------------------------------------
+2024-11-06 16:29:56,533 INFO     --------------------------------------------------------------
+2024-11-06 16:34:58,368 INFO     --------------------------------------------------------------
+2024-11-06 16:35:00,204 INFO     Repeating scheduled time 1900-01-01 16:35:00
+2024-11-06 16:35:00,208 INFO     One off scheduled time 2024-11-14 16:33:00
+2024-11-06 16:35:00,208 INFO     Not past due yet
+2024-11-06 16:40:00,209 INFO     --------------------------------------------------------------
+2024-11-06 16:40:02,023 INFO     Repeating scheduled time 1900-01-01 16:35:00
+2024-11-06 16:40:02,026 INFO     Scheduled record found past due
+2024-11-06 16:40:02,026 INFO     Current time: 2024-11-06 16:40:02.023624
+2024-11-06 16:40:02,026 INFO     Scheduled time: 2024-11-06 16:35:00
+2024-11-06 16:40:02,026 INFO     Minutes difference: 5
+2024-11-06 16:40:04,474 INFO     Auto feed success
+2024-11-06 16:40:04,475 INFO     Scheduled date. Do not delete
+2024-11-06 16:45:04,475 INFO     --------------------------------------------------------------
+2024-11-06 16:45:06,311 INFO     Repeating scheduled time 1900-01-01 16:35:00
+2024-11-06 16:45:06,313 INFO     Already ran for today, skip
+2024-11-06 16:45:06,314 INFO     One off scheduled time 2024-11-14 16:33:00
+2024-11-06 16:45:06,314 INFO     Not past due yet
+2024-11-06 16:45:06,314 INFO     One off scheduled time 2024-11-07 16:39:00
+2024-11-06 16:45:06,314 INFO     Not past due yet
+2024-11-06 16:50:06,315 INFO     --------------------------------------------------------------
+2024-11-06 16:50:08,131 INFO     Repeating scheduled time 1900-01-01 16:35:00
+2024-11-06 16:50:08,133 INFO     Already ran for today, skip
+2024-11-06 16:50:08,133 INFO     One off scheduled time 2024-11-14 16:33:00
+2024-11-06 16:50:08,133 INFO     Not past due yet
+2024-11-06 16:50:08,133 INFO     One off scheduled time 2024-11-07 16:39:00
+2024-11-06 16:50:08,133 INFO     Not past due yet
+2024-11-06 16:55:08,134 INFO     --------------------------------------------------------------
+2024-11-06 16:55:09,972 INFO     Repeating scheduled time 1900-01-01 16:35:00
+2024-11-06 16:55:09,975 INFO     Already ran for today, skip
+2024-11-06 16:55:09,976 INFO     One off scheduled time 2024-11-14 16:33:00
+2024-11-06 16:55:09,976 INFO     Not past due yet
+2024-11-06 16:55:09,976 INFO     One off scheduled time 2024-11-07 16:39:00
+2024-11-06 16:55:09,977 INFO     Not past due yet
+2024-11-06 17:00:07,155 INFO     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2024-11-06 17:00:07,159 INFO     Starting up
+2024-11-06 17:00:07,159 INFO     Time delay default is: 300 seconds
+2024-11-06 17:00:07,159 INFO     Create Gracekiller class
+2024-11-06 17:00:07,159 INFO     End Start up. Starting while loop
+2024-11-06 17:00:07,160 INFO     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2024-11-06 17:00:07,160 INFO     --------------------------------------------------------------
+2024-11-06 17:00:09,003 INFO     Repeating scheduled time 1900-01-01 16:35:00
+2024-11-06 17:00:09,005 INFO     Already ran for today, skip
+2024-11-06 17:00:09,005 INFO     One off scheduled time 2024-11-14 16:33:00
+2024-11-06 17:00:09,005 INFO     Not past due yet
+2024-11-06 17:00:09,005 INFO     One off scheduled time 2024-11-07 16:39:00
+2024-11-06 17:00:09,006 INFO     Not past due yet
+2024-11-06 17:05:09,012 INFO     --------------------------------------------------------------
+2024-11-06 17:05:10,821 INFO     Repeating scheduled time 1900-01-01 16:35:00
+2024-11-06 17:05:10,822 INFO     Already ran for today, skip
+2024-11-06 17:05:10,823 INFO     One off scheduled time 2024-11-14 16:33:00
+2024-11-06 17:05:10,823 INFO     Not past due yet
+2024-11-06 17:05:10,823 INFO     One off scheduled time 2024-11-07 16:39:00
+2024-11-06 17:05:10,823 INFO     Not past due yet
+2024-11-06 17:10:10,823 INFO     --------------------------------------------------------------
+2024-11-06 17:10:12,632 INFO     Repeating scheduled time 1900-01-01 16:35:00
+2024-11-06 17:10:12,634 INFO     Already ran for today, skip
+2024-11-06 17:10:12,634 INFO     One off scheduled time 2024-11-14 16:33:00
+2024-11-06 17:10:12,634 INFO     Not past due yet
+2024-11-06 17:10:12,634 INFO     One off scheduled time 2024-11-07 16:39:00
+2024-11-06 17:10:12,634 INFO     Not past due yet
+2024-11-06 17:15:12,635 INFO     --------------------------------------------------------------
+2024-11-06 17:15:14,444 INFO     Repeating scheduled time 1900-01-01 16:35:00
+2024-11-06 17:15:14,445 INFO     Already ran for today, skip
+2024-11-06 17:15:14,446 INFO     One off scheduled time 2024-11-14 16:33:00
+2024-11-06 17:15:14,446 INFO     Not past due yet
+2024-11-06 17:15:14,446 INFO     One off scheduled time 2024-11-07 16:39:00
+2024-11-06 17:15:14,446 INFO     Not past due yet
+2024-11-06 17:20:14,446 INFO     --------------------------------------------------------------
+2024-11-06 17:20:16,264 INFO     Repeating scheduled time 1900-01-01 16:35:00
+2024-11-06 17:20:16,265 INFO     Already ran for today, skip
+2024-11-06 17:20:16,266 INFO     One off scheduled time 2024-11-14 16:33:00
+2024-11-06 17:20:16,266 INFO     Not past due yet
+2024-11-06 17:20:16,266 INFO     One off scheduled time 2024-11-07 16:39:00
+2024-11-06 17:20:16,266 INFO     Not past due yet
+2024-11-06 17:25:16,266 INFO     --------------------------------------------------------------
+2024-11-06 17:25:18,080 INFO     Repeating scheduled time 1900-01-01 16:35:00
+2024-11-06 17:25:18,082 INFO     Already ran for today, skip
+2024-11-06 17:25:18,082 INFO     One off scheduled time 2024-11-14 16:33:00
+2024-11-06 17:25:18,082 INFO     Not past due yet
+2024-11-06 17:25:18,082 INFO     One off scheduled time 2024-11-07 16:39:00
+2024-11-06 17:25:18,082 INFO     Not past due yet
+2024-11-06 17:30:18,083 INFO     --------------------------------------------------------------
+2024-11-06 17:30:19,949 INFO     Repeating scheduled time 1900-01-01 16:35:00
+2024-11-06 17:30:19,951 INFO     Already ran for today, skip
+2024-11-06 17:30:19,951 INFO     One off scheduled time 2024-11-14 16:33:00
+2024-11-06 17:30:19,951 INFO     Not past due yet
+2024-11-06 17:30:19,952 INFO     One off scheduled time 2024-11-07 16:39:00
+2024-11-06 17:30:19,952 INFO     Not past due yet
+2024-11-06 17:35:19,952 INFO     --------------------------------------------------------------
+2024-11-06 17:35:21,814 INFO     Repeating scheduled time 1900-01-01 16:35:00
+2024-11-06 17:35:21,818 INFO     Already ran for today, skip
+2024-11-06 17:35:21,819 INFO     One off scheduled time 2024-11-14 16:33:00
+2024-11-06 17:35:21,819 INFO     Not past due yet
+2024-11-06 17:35:21,820 INFO     One off scheduled time 2024-11-07 16:39:00
+2024-11-06 17:35:21,820 INFO     Not past due yet
+2024-11-06 17:40:21,821 INFO     --------------------------------------------------------------
+2024-11-06 17:40:23,715 INFO     Repeating scheduled time 1900-01-01 16:35:00
+2024-11-06 17:40:23,717 INFO     Already ran for today, skip
+2024-11-06 17:40:23,717 INFO     One off scheduled time 2024-11-14 16:33:00
+2024-11-06 17:40:23,717 INFO     Not past due yet
+2024-11-06 17:40:23,717 INFO     One off scheduled time 2024-11-07 16:39:00
+2024-11-06 17:40:23,718 INFO     Not past due yet
+2024-11-06 17:45:23,718 INFO     --------------------------------------------------------------
+2024-11-06 17:45:25,531 INFO     Repeating scheduled time 1900-01-01 16:35:00
+2024-11-06 17:45:25,533 INFO     Already ran for today, skip
+2024-11-06 17:45:25,533 INFO     One off scheduled time 2024-11-14 16:33:00
+2024-11-06 17:45:25,533 INFO     Not past due yet
+2024-11-06 17:45:25,533 INFO     One off scheduled time 2024-11-07 16:39:00
+2024-11-06 17:45:25,534 INFO     Not past due yet
+2024-11-06 17:50:25,534 INFO     --------------------------------------------------------------
+2024-11-06 17:50:27,375 INFO     Repeating scheduled time 1900-01-01 16:35:00
+2024-11-06 17:50:27,376 INFO     Already ran for today, skip
+2024-11-06 17:50:27,377 INFO     One off scheduled time 2024-11-14 16:33:00
+2024-11-06 17:50:27,377 INFO     Not past due yet
+2024-11-06 17:50:27,377 INFO     One off scheduled time 2024-11-07 16:39:00
+2024-11-06 17:50:27,377 INFO     Not past due yet
+2024-11-06 17:55:27,378 INFO     --------------------------------------------------------------
+2024-11-06 17:55:29,190 INFO     Repeating scheduled time 1900-01-01 16:35:00
+2024-11-06 17:55:29,192 INFO     Already ran for today, skip
+2024-11-06 17:55:29,192 INFO     One off scheduled time 2024-11-14 16:33:00
+2024-11-06 17:55:29,193 INFO     Not past due yet
+2024-11-06 17:55:29,193 INFO     One off scheduled time 2024-11-07 16:39:00
+2024-11-06 17:55:29,193 INFO     Not past due yet
+2024-11-06 18:00:29,193 INFO     --------------------------------------------------------------
+2024-11-06 18:00:31,006 INFO     Repeating scheduled time 1900-01-01 16:35:00
+2024-11-06 18:00:31,009 INFO     Already ran for today, skip
+2024-11-06 18:00:31,009 INFO     One off scheduled time 2024-11-14 16:33:00
+2024-11-06 18:00:31,009 INFO     Not past due yet
+2024-11-06 18:00:31,009 INFO     One off scheduled time 2024-11-07 16:39:00
+2024-11-06 18:00:31,009 INFO     Not past due yet
+2024-11-06 18:05:31,010 INFO     --------------------------------------------------------------
+2024-11-06 18:05:32,823 INFO     Repeating scheduled time 1900-01-01 16:35:00
+2024-11-06 18:05:32,825 INFO     Already ran for today, skip
+2024-11-06 18:05:32,825 INFO     One off scheduled time 2024-11-14 16:33:00
+2024-11-06 18:05:32,826 INFO     Not past due yet
+2024-11-06 18:05:32,826 INFO     One off scheduled time 2024-11-07 16:39:00
+2024-11-06 18:05:32,826 INFO     Not past due yet
+2024-11-06 18:10:32,827 INFO     --------------------------------------------------------------
+2024-11-06 18:10:34,650 INFO     Repeating scheduled time 1900-01-01 16:35:00
+2024-11-06 18:10:34,652 INFO     Already ran for today, skip
+2024-11-06 18:10:34,652 INFO     One off scheduled time 2024-11-14 16:33:00
+2024-11-06 18:10:34,653 INFO     Not past due yet
+2024-11-06 18:10:34,653 INFO     One off scheduled time 2024-11-07 16:39:00
+2024-11-06 18:10:34,653 INFO     Not past due yet
+2024-11-06 18:15:34,653 INFO     --------------------------------------------------------------
+2024-11-06 18:15:36,488 INFO     Repeating scheduled time 1900-01-01 16:35:00
+2024-11-06 18:15:36,490 INFO     Already ran for today, skip
+2024-11-06 18:15:36,490 INFO     One off scheduled time 2024-11-14 16:33:00
+2024-11-06 18:15:36,490 INFO     Not past due yet
+2024-11-06 18:15:36,490 INFO     One off scheduled time 2024-11-07 16:39:00
+2024-11-06 18:15:36,490 INFO     Not past due yet
+2024-11-06 18:20:36,491 INFO     --------------------------------------------------------------
+2024-11-06 18:20:38,343 INFO     Repeating scheduled time 1900-01-01 16:35:00
+2024-11-06 18:20:38,345 INFO     Already ran for today, skip
+2024-11-06 18:20:38,345 INFO     One off scheduled time 2024-11-14 16:33:00
+2024-11-06 18:20:38,346 INFO     Not past due yet
+2024-11-06 18:20:38,346 INFO     One off scheduled time 2024-11-07 16:39:00
+2024-11-06 18:20:38,346 INFO     Not past due yet
+2024-11-06 18:25:38,347 INFO     --------------------------------------------------------------
+2024-11-06 18:25:40,158 INFO     Repeating scheduled time 1900-01-01 16:35:00
+2024-11-06 18:25:40,159 INFO     Already ran for today, skip
+2024-11-06 18:25:40,159 INFO     One off scheduled time 2024-11-14 16:33:00
+2024-11-06 18:25:40,160 INFO     Not past due yet
+2024-11-06 18:25:40,160 INFO     One off scheduled time 2024-11-07 16:39:00
+2024-11-06 18:25:40,160 INFO     Not past due yet
+2024-11-06 18:30:40,161 INFO     --------------------------------------------------------------
+2024-11-06 18:30:41,973 INFO     Repeating scheduled time 1900-01-01 16:35:00
+2024-11-06 18:30:41,975 INFO     Already ran for today, skip
+2024-11-06 18:30:41,975 INFO     One off scheduled time 2024-11-14 16:33:00
+2024-11-06 18:30:41,976 INFO     Not past due yet
+2024-11-06 18:30:41,976 INFO     One off scheduled time 2024-11-07 16:39:00
+2024-11-06 18:30:41,976 INFO     Not past due yet

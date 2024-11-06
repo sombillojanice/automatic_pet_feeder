@@ -1,0 +1,4 @@
+[Wed Nov 06 16:25:33.799947 2024] [wsgi:error] [pid 5269:tid 5274] /var/www/feeder/feeder/app.py:43: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+[Wed Nov 06 16:25:33.800075 2024] [wsgi:error] [pid 5269:tid 5274]   GPIO.setup(servo_pin, GPIO.OUT)
+[Wed Nov 06 16:25:48.830205 2024] [wsgi:error] [pid 5483:tid 5507] /var/www/feeder/feeder/app.py:43: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+[Wed Nov 06 16:25:48.830304 2024] [wsgi:error] [pid 5483:tid 5507]   GPIO.setup(servo_pin, GPIO.OUT)
