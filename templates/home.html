@@ -1,0 +1,179 @@
+{% extends "layout.html" %}
+
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+{% block main %}
+
+<div class="container">
+    <!-- Action Buttons Row -->
+    <div class="row justify-content-center mb-4">
+        {% if cameraStatus == '1' %}
+            <div class="col-md-5 text-center mb-3">
+                <form role="form" name="feedbuttonclick" method="post" action="/feedbuttonclick">
+                    <button class="btn btn-lg btn-primary feedButton w-100" type="submit">Feed Now</button>
+                </form>
+            </div>
+            <div class="col-md-5 text-center mb-3">
+                <form role="form" action="{{ cameraSiteAddress }}">
+                    <button class="btn btn-lg btn-secondary camButton w-100" type="submit">Live Video</button>
+                </form>
+            </div>
+        {% else %}
+          <div class="col-md-2 col-sm-3 text-center" style="margin-bottom: 30px;">
+            <form role="form" name="feedbuttonclick" method="post" action="/feedbuttonclick">
+                <button class="btn btn-sm btn-primary feedButton" type="submit">Feed Now</button>
+            </form>
+        </div>
+
+        {% endif %}
+    </div>
+
+    <!-- Feed Times and Scheduling Section -->
+    <div class="row">
+        <!-- Feed Times Table -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-header text-center bg-primary text-white">Latest Feed Times</div>
+                <div class="card-body table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Feed Time</th>
+                                <th>Source</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% if latestXNumberFeedTimes %}
+                                {% for entry in latestXNumberFeedTimes %}
+                                    <tr>
+                                        <td>{{ entry[0] }}</td>
+                                        <td>{{ entry[1] }}</td>
+                                    </tr>
+                                {% endfor %}
+                            {% else %}
+                                <tr><td colspan="2" class="text-center">No feed times available</td></tr>
+                            {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Feed Table or Scheduled Feeds -->
+        <div class="col-md-6 mb-4">
+            {% if cameraStatus == '1' %}
+                <div class="card">
+                    <div class="card-header text-center bg-secondary text-white">Latest Videos</div>
+                    <div class="card-body table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Video</th>
+                                    <th>Size</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% if latestXVideoFeedTimes %}
+                                    {% for entry in latestXVideoFeedTimes %}
+                                        <tr>
+                                            <td><a href="{{ url_for('video_page', videoid=entry[1]) }}">{{ entry[0] }}</a></td>
+                                            <td>{{ entry[2] }} MB</td>
+                                        </tr>
+                                    {% endfor %}
+                                {% else %}
+                                    <tr><td colspan="2" class="text-center">No videos available</td></tr>
+                                {% endif %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            {% else %}
+                <div class="card">
+                    <div class="card-header text-center bg-danger text-white">Scheduled Feed Times</div>
+                    <div class="card-body table-responsive">
+                        <form name="myForm" method="post">
+                            <table class="table table-striped" id="upcomingFeedTimesTable">
+                                <thead>
+                                    <tr>
+                                        <th>Time</th>
+                                        <th class="text-center">Delete</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% if upcomingXNumberFeedTimes %}
+                                        {% for entry in upcomingXNumberFeedTimes %}
+                                            <tr>
+                                                <td>{{ entry }}</td>
+                                                <td class="text-center">
+                                                    <input class="btn btn-sm btn-danger" type="button" value="Delete" onclick="deleteRow(this)">
+                                                </td>
+                                            </tr>
+                                        {% endfor %}
+                                    {% else %}
+                                        <tr><td colspan="2" class="text-center">No upcoming feed times</td></tr>
+                                    {% endif %}
+                                </tbody>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- Scheduling Forms -->
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-header text-center bg-info text-white">Schedule a Feed</div>
+                <div class="card-body">
+                    <form role="form" name="scheduleDatetime" method="post" action="/scheduleDatetime">
+                        <div class="form-group">
+                            <label for="scheduleDatetime">Date</label>
+                            <input type="date" name="scheduleDatetime" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="scheduleTime">Time</label>
+                            <input type="time" name="scheduleTime" class="form-control">
+                        </div>
+                        <button class="btn btn-primary w-100" type="submit">Schedule One Time Feed</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-header text-center bg-info text-white">Schedule Repeating Feed</div>
+                <div class="card-body">
+                    <form role="form" name="scheduleRepeatingDatetime" method="post" action="/scheduleRepeatingDatetime">
+                        <div class="form-group">
+                            <label for="scheduleRepeatingDate">Frequency</label>
+                            <input type="text" name="scheduleRepeatingDate" value="Daily" class="form-control" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label for="scheduleRepeatingTime">Time</label>
+                            <input type="time" name="scheduleRepeatingTime" class="form-control">
+                        </div>
+                        <button class="btn btn-primary w-100" type="submit">Schedule Repeating Feed</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    function deleteRow(btn){
+        const table = document.getElementById('upcomingFeedTimesTable');
+        const rowIndex = btn.closest('tr').rowIndex;
+        const cellValue = table.rows[rowIndex].cells[0].innerText;
+        document.myForm.action = `{{ url_for('deleteRow', history='') }}${cellValue}`;
+        document.myForm.submit();
+    }
+</script>
+
+{% endblock %}
